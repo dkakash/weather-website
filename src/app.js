@@ -4,6 +4,7 @@ const forecast=require('./utils/forecast')
 const hbs=require('hbs')
 const express=require('express')
 const app=express()
+const port=process.env.PORT || 3000
 
 const publicdir=path.join(__dirname,'../public')
 const viewspath=path.join(__dirname,'../templates/views')
@@ -17,9 +18,7 @@ hbs.registerPartials(partialspath)
 
 
 app.use(express.static(publicdir))
-app.listen(3000,()=>{
-    console.log("server running")
-})
+
 // app.get('/help',(req,res)=>{
 // res.send([{name:'akash'},{name:'mani'}])
 // })
@@ -102,3 +101,6 @@ app.get('*',(req,res)=>{
     )
 })
 
+app.listen(port,()=>{
+    console.log("server running at"+ port)
+})
