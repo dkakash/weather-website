@@ -9,7 +9,7 @@ const forecast=(lat,long,callback)=>{
     
         }
         else{
-    callback(undefined,body.daily.data[0].summary+ ' It is currently '+body.currently.temperature+' degress out. There is '+body.currently.precipProbability+'% chance of rain')
+    callback(undefined,body.daily.data[0].summary+ ' It is currently '+body.currently.temperature+' degress out. There is '+body.currently.precipProbability+'% chance of rain. The maximum temperature for the day is around '+body.daily.data[0].temperatureHigh+' and minimum temperature is around '+body.daily.data[0].temperatureLow+'. The wind speed is '+body.daily.data[0].windSpeed+' m/hr')
     }})
 }
 
