@@ -14,10 +14,11 @@ body{
 }
 
 footer {
-    color:#4b4b4b;
+    background-color: #252525;
+    color:#c0bdbd;
     border-top:1px solid #252525;
     margin-top: 16px;
-    padding-left:220px;
+    padding-left:16px;;
 }
 
 header {
@@ -54,6 +55,10 @@ button{
     border: 1px solid #888888;
     padding: 8px;
     color:white;    
+}
+
+.line{
+    margin-left: 180px;
 }
 
 .title{
