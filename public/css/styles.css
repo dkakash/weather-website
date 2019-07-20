@@ -7,17 +7,17 @@ body{
     padding: 0 16px;
     display:flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 98vh
 }
 .main-content{
-    flex-grow:1;
+    flex-grow:3;
 }
 
 footer {
     color:#4b4b4b;
     border-top:1px solid #252525;
     margin-top: 16px;
-    padding:16px,16px;
+    padding-left:220px;
 }
 
 header {
