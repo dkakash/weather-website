@@ -1,7 +1,8 @@
 body{
+    background-color: #eeeeee;
     color:#333333;
     font-family:'Arial';
-    max-width:650px;
+    max-width:600px;
     margin:0 auto;
     padding: 0 16px;
     display:flex;
@@ -13,10 +14,10 @@ body{
 }
 
 footer {
-    color:#888888;
-    border-top:1px solid #eeeeee;
+    color:#4b4b4b;
+    border-top:1px solid #252525;
     margin-top: 16px;
-    padding:16px,0;
+    padding:16px,16px;
 }
 
 header {
@@ -30,7 +31,9 @@ h1{
 }
 
 header a{
+    font-size: 25px;
     color:#888888;
+    margin-top:50px;
     margin-right:16px;
     text-decoration: none;
 }
@@ -40,6 +43,7 @@ header a{
 }
 
 input{
+    margin-top:25px;
     padding:8px;
     border:1px solid #cccccc;
 }
@@ -50,4 +54,8 @@ button{
     border: 1px solid #888888;
     padding: 8px;
     color:white;    
+}
+
+.title{
+    font-size: 30px;
 }

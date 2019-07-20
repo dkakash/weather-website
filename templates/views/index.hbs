@@ -9,9 +9,13 @@
     <body>
         <div class='main-content'>
         {{>header}}
-        <h1>{{title}}</h1>
+        {{!-- <marquee>Welcome To Weather App</marquee> --}}
+        <p class="title">{{title}}</p>
+
+
+        <p>This site provides you with the weather at any given location in the wolrd!</p>
         <form>
-            <input placeholder="enter address ">
+            <input placeholder="Enter Location">
             <button>Search</button>
         </form>
         <p id='msg1'></p>
